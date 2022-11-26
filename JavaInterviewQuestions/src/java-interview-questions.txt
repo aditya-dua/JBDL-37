@@ -1,9 +1,100 @@
-1. What is Java
+1. What is Java?
+Ans:- Java is a popular programming language, created in 1995.It is owned by Oracle, and more than 3 billion devices run Java.
+  It is used for:
+    Mobile applications (specially Android apps)
+    Desktop applications
+    Web applications
+    Web servers and application servers
+    Games
+    Database connection
+    And much, much more!
+
 2. What are the features of Java?
+Ans:- The most important features of Java are Platform Independent and Object Oriented. That’s why Java is most popular among high level programming languages.
+
+    Simple:-Java is a simple programming language and easy to understand because it does not 
+                  contain complexities that exist in prior programming languages.
+
+    Object-Oriented :- Java is an Object Oriented Programming Language, which means in Java
+                                  everything is written in terms of classes and objects.
+
+    Platform Independent:-The design objective of javasoft people is to develop a language that 
+                                          must work on any platform.
+                        
+    Portable:-The WORA (Write Once Run Anywhere) concept and platform independent feature
+                    make Java portable.
+    Robust:-The Java Programming language is robust, which means it is capable of handling
+                  unexpected termination of a program.
+
+                 There are 2 reasons behind this,
+                  First, it has a most important and helpful feature called Exception Handling. If an exception occurs in java code then no harm will happen whereas,                     in other low level languages, the program will crash.
+                  Another reason why Java is strong lies in its memory management features.
+
+    Secure:-In today’s era, security is a major concern of every application. As now every device is connected to each other using the internet and this opens up the                possibility of hacking.
+
+    Interpreted:-In programming languages, you have learned that they use either the compiler or interpreter, but Java programming language uses both a compiler and                    interpreter. Java programs are compiled to generate bytecode files then JVM interprets the bytecode file during execution. Along with this JVM also                    uses a JIT compiler (it increases the speed of execution).
+    Multi-Threaded:-Thread is a lightweight and independent subprocess of a running program (i.e, process) that shares resources. And when multiple threads run             simultaneously is called multi-threading. In many applications, you have seen multiple tasks running simultaneously, for example, Google Docs where while typing       text, the spell check and autocorrect task are running.
+
 3. What are the new features released in Java 8?
+Ans:- Java 8 was released on 18th March 2014. That’s a long time ago but still many projects are running on Java 8. It’s because it was a major release with a lot of new features. Let’s look at all the exciting and major features of Java 8 with example code.
+
+    Some of the important Java 8 features are;
+        forEach() method in Iterable interface
+        default and static methods in Interfaces
+        Functional Interfaces and Lambda Expressions
+        Java Stream API for Bulk Data Operations on Collections
+        Java Time API
+        Collection API improvements
+        Concurrency API improvements
+        Java IO improvements
+
+
 4. What are the new features released in Java 11?
+Ans:-Java 11 is the second LTS release after Java 8. Since Java 11, Oracle JDK would no longer be free for commercial use.
+
+        Some of the important Java 11 features are:
+        Running Java File with single command
+        New utility methods in String class
+        Local-Variable Syntax for Lambda Parameters
+        Nested Based Access Control
+        JEP 321: HTTP Client
+        Reading/Writing Strings to and from the Files
+        JEP 328: Flight Recorder
+
 5. What are the new features released in Java 14?
+Ans:- Keeping up with the six-month cycle tradition, after the release of Java 13 on September 17, 2019, Java 14, another non-LTS version is scheduled to release on March 17, 2020.
+       Here’s the list of Java 14 features:
+
+            Switch Expressions (Standard) - JEP 361
+            Pattern Matching for instanceof (Preview) - JEP 305
+            Helpful NullPointerExceptions - JEP 358
+            Records (Preview) - JEP 359
+            Text Blocks (Second Preview) - JEP 368
+            Packaging Tool (Incubator) - JEP 343
+            NUMA-Aware Memory Allocation for G1 - JEP 345
+            JFR Event Streaming - JEP 349
+            Non-Volatile Mapped Byte Buffers - JEP 352
+            ZGC on macOS - JEP 364
+            ZGC on Windows - JEP 365
+            Foreign-Memory Access API (Incubator) - JEP 370
+
 6. What are the new features released in Java 17?
+Ans:-The newest long-term support release for the Java SE platform is Java 17 LTS. Under the Oracle No-Fee Terms and Conditions License, JDK 17 binaries are free to use in production and redistribute at no cost. LTS stands for long-term support. It will be available on September 15, 2021.
+        Restore or Rebuild the "Always-Strict Floating-Point" Semantics
+        Enhanced faster the "pseudo-Random" Number Generators
+        New macOS rendering pipelines
+        macOS/AArch64 Port
+        Dismiss the Applet API for Removal
+        JDK Internals Encapsulate strongly
+        Switch Pattern Matching (Preview)
+        Activation of the Removal RMI
+        Generate sealed Classes
+        Removal of the Experimental AOT and JIT Compiler
+        Remove the Security Manager.
+        Foreign Functions and Memory API (Incubator)
+        Vector API (Second Incubator)
+        Deserialization Filters Based on Context (content-specific)
+
 7. What do you mean by Constructor and what are the different types of Constructor available in java?
 8. What do are the different types of variables available in Java?
 9. What do you mean by Class?
